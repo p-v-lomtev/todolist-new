@@ -1,0 +1,13 @@
+.btn-group-m {
+    flex-grow: 1;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .btn-group-m {
+        flex-grow: 1;
+        margin-top: 1rem;
+        margin-left:0;
+        width: 100%;
+    }
+}
