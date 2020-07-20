@@ -102,7 +102,7 @@ export default class App extends Component {
       }
       
       return items.filter((item) => {
-        return item.label.toLowerCase().indexOf(search.toLowerCase()) > -1
+        return item.label.toLowerCase().indexOf(search.trim().toLowerCase()) > -1
       })
   }
   
